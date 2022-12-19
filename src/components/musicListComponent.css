@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.music_list_section{
+    
+}
+
+.music_list_header{
+    
+}
+
+.music_list_container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.music_list_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
