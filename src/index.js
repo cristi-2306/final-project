@@ -14,48 +14,9 @@ import MusicDetails from "./components/Pages/MusicDetails";
 import Login from "./components/Pages/Auth/Login";
 import App from "./App";
 
-const AppLayout = () => {
-  return (
-    <>
-    <Navbar/>
-    <App/>
-    <Outlet/>
-    </>
-  );
-}
-const router = createBrowserRouter([
-   {
-    element: <AppLayout />,
-    children:[
-        {
-          path:"/Login",
-          element: <Login/>
-        },
-
-      {
-        path: "/",
-        element: <Home/>,
-      },
-      {
-        path: "/AroundYou",
-        element: <AroundYou/>,
-      },
-      {
-        path: "/TopCharts",
-        element: <TopCharts/>,
-      },
-      {
-        path: "/TopArtists",
-        element: <TopArtists/>,
-      },
-      {
-        path: "/MusicDetails/:id",
-        element: <MusicDetails/>,
-      }
-    ]
-   }
-
-]);
 
 
+
+createRoot(document.getElementById("root")).render(
+  <App></App>
 );

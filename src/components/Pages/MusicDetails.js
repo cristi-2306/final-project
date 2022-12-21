@@ -6,16 +6,15 @@ import { useParams, useNavigate } from "react-router-dom";
 import CreateComponent from './CreateComponent';
 import { AuthContext } from "../../App";
 
+
 function MusicDetails () {
     const musicDetailsUrl = 'http://localhost:3001/songs';
     let {id} = useParams();
     const [songDetails, setSongDetails] = useState({});
-    const value = useContext(AuthContext);
-    console.log(value);
+
     const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
-    
     
 
 

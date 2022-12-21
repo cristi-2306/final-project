@@ -21,11 +21,11 @@ const App = () => {
     window.localStorage.setItem('auth', JSON.stringify(auth));
 
    }, [auth]);
-
+ return (
+ 
 <AuthContext.Provider value={{auth, setAuth}}>
-<Navbar/>
-    <BrowserRouter>
-    
+<BrowserRouter>
+        <Navbar/>
         <Routes>
           <Route path='/Login' element={<Login/>}></Route>
           <Route path='/' element= {<Home/>}></Route>
@@ -35,8 +35,10 @@ const App = () => {
           <Route path='/TopArtists' element={<TopArtists/>}></Route>
           <Route path='/MusicDetails' element= {<MusicDetails/>}></Route>
         </Routes>
-    </BrowserRouter>
+        </BrowserRouter>
 </AuthContext.Provider>
+
+);
 }
  export default App;
  

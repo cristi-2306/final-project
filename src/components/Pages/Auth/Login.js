@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Login.css';
-import { AuthContext } from "../../../App";
+import AuthContext  from "../../../App";
 
 
     function Login() {
@@ -10,9 +10,9 @@ import { AuthContext } from "../../../App";
     const[password, setPassword] = useState('');
     const[emailError, setEmailError] = useState('');
     const[passwordError, setPasswordError] = useState('');
-
-    const loginUrl = 'http://localhost:3001/Login'
     const {auth, setAuth} = useContext(AuthContext);
+    const loginUrl = 'http://localhost:3001/Login';
+   
     
     const navigate = useNavigate();
      function passwordChangeHandler(event){

@@ -3,24 +3,23 @@ import './musicListComponent.css';
 import './musicCardComponent.css'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../App';
-
 export function MusicListComponent() {
 
   const musicUrl = 'http://localhost:3001/songs';
   const [musicData, setMusic] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [initialSongs, setInitialSongs] = useState([]);
-  const { auth } = useContext(AuthContext);
-  const value = useContext(AuthContext);
+ const {auth} = useContext(AuthContext);
   
 
   useEffect(() => {
    
     fetch(musicUrl, {
       headers: {
-        "Authorization": `Bearer ${auth.accessToken}`
+        'Authorization': `Bearer ${auth.accessToken}`
       }
     })
+
       .then(response => response.json())
       .then((musicFromServer) => {
         setMusic(musicFromServer);
