@@ -1,13 +1,14 @@
 import React, { useContext, useState } from "react";
-import './EditComponent.css';
+import '../EditComponent.css'
 
 import ReactDom from 'react-dom';
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../../App";
-function EditComponent ({open, children, onClose}) {
-    const musicDetailsUrl = 'http://localhost:3001/songs';
+import { AuthContext } from "../../../App";
+
+function EditComponentPop ({open, children, onClose}) {
+    const musicDetailsUrl = 'http://localhost:3001/pop';
     let {id} = useParams();
     const [title, setTitle] = useState('');
     const [subtitle, setSubtitle] = useState('');
@@ -71,7 +72,7 @@ function EditComponent ({open, children, onClose}) {
                  Authorization: `Bearer ${auth.accessToken}`
             },
             body: JSON.stringify(body)
-        }).then(()=> navigate('../'));
+        }).then(()=> navigate('/Home'));
       }
 
 
@@ -117,4 +118,4 @@ function EditComponent ({open, children, onClose}) {
     ) 
 }
 
-export default EditComponent;
+export default EditComponentPop;

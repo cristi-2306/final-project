@@ -1,23 +1,26 @@
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import './navbar.css';
 import {GiRocketThruster} from 'react-icons/gi';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
+import { AuthContext } from "../App"; 
+
 
 function Navbar() {
    const [click, setClick]= useState(false)
    const handleClick = () => setClick(!click)
    const closeMobileMenu =() => setClick(false)
+   const {auth, logOut} = useContext(AuthContext);
   return(
     <>
+    
     <IconContext.Provider value={{color: "#000"}}>
     <nav className="navbar">
       <div className="navbar-container container">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
-          <GiRocketThruster className="navbar-icon" />
-          Music Web
+        <Link to="/Home" className="navbar-logo" onClick={closeMobileMenu} >
+         <span>  GROOVY BIN </span> 
         </Link>
         <div className="menu-icon" onClick={handleClick}>
         {click ? <FaTimes/> : <FaBars/>}
@@ -25,7 +28,7 @@ function Navbar() {
         </div>
         <ul className={click? 'nav-menu active' : "nav-menu"}>
           <li className="nav-item">
-            <NavLink to='/' className={({isActive}) =>"nav-links" +(isActive? " activated" :"")}
+            <NavLink to='/Home' className={({isActive}) =>"nav-links" +(isActive? " activated" :"")}
              onClick ={closeMobileMenu}
             >
               Home
@@ -49,13 +52,23 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to='/topArtists' className={({isActive}) =>"nav-links" + (isActive? " activated" :"")}
+            <NavLink to='/Favorites' className={({isActive}) =>"nav-links" + (isActive? " activated" :"")}
              onClick ={closeMobileMenu}
             >
-              Top Artists
+              Favorites
             </NavLink>
           </li>
-        
+          <li className="nav-item">
+            <NavLink to='/Profile' className={({isActive}) =>"nav-links" + (isActive? " activated" :"")}
+             onClick ={closeMobileMenu}
+            >
+              User Profile
+            </NavLink>
+          </li>
+          <li className="nav-item_logOut" onClick={logOut}>
+           <button className="log_out_btn">LogOut</button>
+          </li>
+       
         </ul>
       </div>
     </nav>

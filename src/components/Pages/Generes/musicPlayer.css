@@ -1,0 +1,96 @@
+.music-player{
+    position: fixed;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(3px);
+    width: 66%;
+    top: 41.2rem;
+    display: flex;
+    align-items: center;
+}
+      .music-player_song-title{
+        position: relative;
+        left: 10rem;
+        text-align: left;
+        width: 20rem;
+        display: flex;
+        top: -1rem;
+      }
+     .music-player_song-subtitle{
+        position: relative;
+    left: -10rem;
+    top: 1rem;
+    text-align: left;
+    width: 20rem;
+     }
+      
+      .music-player_Pop_avatar{
+        height: 3.5rem;
+        border-radius: 2rem;
+        position: relative;
+        left: -39rem;
+      }
+    .player_btn{
+        width: 4rem;
+        height: 4rem;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        margin-left: -12rem;
+    }
+
+    @media screen and (max-width: 426px) {
+
+ 
+        .music-player{
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+          backdrop-filter: blur(3px);
+          width: 100%;
+          top: 36.1rem;
+          display: flex;
+          align-items: center;
+          height: 5rem;
+        }
+              .music-player_song-title{
+                position: relative;
+                margin-bottom: 0rem;
+                left: -2rem;
+                text-align: left;
+                width: 20rem;
+                display: flex;
+                margin-left: 7rem;
+                top: -1rem;
+              }
+             .music-player_song-subtitle{
+                position: static;
+                left: -10rem;
+                top: 1rem;
+                text-align: left;
+                width: 20rem;
+                margin-left: -22rem;
+                margin-bottom: -2rem;
+                display: flex;
+             }
+              
+              .music-player_Pop_avatar{
+                position: relative;
+                height: 3.1rem;
+                border-radius: 2rem;
+                left: -24rem;
+              }
+            .player_btn{
+                width: 4rem;
+                position: static;
+                height: 4rem;
+                background: transparent;
+                border: none;
+                font-size: 2rem;
+                margin-left: -12rem;
+            }
+            .music-player_seekbar-container{
+             display: none;
+            }
+        }

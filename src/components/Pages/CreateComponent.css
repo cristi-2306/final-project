@@ -4,9 +4,71 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(255, 255, 255, .15);   
     z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 54%;
+    height: 65%;
+    margin-top: 8rem;
+    margin-left: 18rem;
+}
+.create_component{
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(5px);
+}
+
+.create_key{
+    position: relative;
+    top: -11rem;
+    left: 23rem;
+}
+
+.create_title {
+    position: relative;
+    top: -9rem;
+    left: 12.6rem;
+}
+
+.create_subtitle {
+    position: relative;
+    top: -5rem;
+    left: 2.2rem;
+}
+
+.create_image {
+    position: relative;
+    top: -2rem;
+    left: -8.2rem;
+}
+
+.create_songUrl {
+    position: relative;
+    top: 1rem;
+    left: -18.6rem;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    padding: 0rem;
+    position: relative;
+    top: 8rem;
+    left: -27rem;
+}
+
+@media screen and (max-width: 426px) {
+    .create_component {
+    left: -16rem;
+    width: 83%;
+    height: 71%;
+    }
 }

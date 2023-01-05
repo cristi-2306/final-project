@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Login.css';
-import AuthContext  from "../../../App";
+import {AuthContext}  from "../../../App";
+import { Link } from "react-router-dom";
 
 
     function Login() {
@@ -12,9 +13,8 @@ import AuthContext  from "../../../App";
     const[passwordError, setPasswordError] = useState('');
     const {auth, setAuth} = useContext(AuthContext);
     const loginUrl = 'http://localhost:3001/Login';
-   
-    
     const navigate = useNavigate();
+
      function passwordChangeHandler(event){
         setPassword(event.target.value);
      }
@@ -50,7 +50,7 @@ import AuthContext  from "../../../App";
         .then((response) => response.json())
         .then((response) => {
             setAuth(response);
-            navigate('/');
+            navigate('/Home');
            
         });
      }
@@ -112,26 +112,31 @@ import AuthContext  from "../../../App";
        }
 
     return(
-        <form onSubmit={onSubmit} noValidate>
-            <div>
-         <label htmlFor="email">Email</label>
-         <input id="email" type='email' value={email} onChange={emailChangeHandler}/>
-         {emailError}
+        <div className="login">
+        <form onSubmit={onSubmit} noValidate className="login_form">
+            <div className="email">
+         <label htmlFor="email">Email:</label>
+         <input id="email" type='email' value={email} onChange={emailChangeHandler} className='email_input'/>
          <p className="danger">{emailError}</p>
          </div>
 
-         <div>
-         <label htmlFor="password">Password</label>
-         <input id="password" type='password' value={password} onChange={passwordChangeHandler}/>
+         <div className="password">
+         <label htmlFor="password">Password:</label>
+         <input id="password" type='password' value={password} onChange={passwordChangeHandler} className='password_input'/>
            <p className="danger">{passwordError}</p>  
          </div>
 
-
-          <button type="submit">
+          
+          <button type="submit" className="login_btn">
             Login
           </button>
+          <Link to='/Register'>
 
+          <span className="register_link">Register here!</span>
+          </Link>
+        
         </form>
+        </div>
     );
 }
 

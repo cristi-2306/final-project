@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import ReactDom from 'react-dom';
-import './CreateComponent.css';
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../App";
+import { useContext } from "react";
 
- function CreateComponent({open2, children2, onClose2}){
-    const createSongCardUrl = 'http://localhost:3001/songs';
+ function CreateComponentRock({open2, children2, onClose2}){
+    const createSongCardUrl = 'http://localhost:3001/rock';
     let {id} = useParams();
     const [title, setTitle] = useState('');
     const [subtitle, setSubtitle] = useState('');
     const [avatar, setAvatar] = useState('');
     const [songUrl, setSongUrl] = useState('');
     const [songKey, setSongKey] = useState('');
+    const {auth} = useContext(AuthContext);
     const navigate = useNavigate();  
 
 
@@ -50,10 +52,11 @@ import { useNavigate } from "react-router-dom";
         fetch(createSongCardUrl, {
             method: 'POST',
             headers: {
-                'Content-Type' : 'application/json'
+                'Content-Type' : 'application/json',
+                Authorization : `Bearer ${auth.accessToken}`
             },
             body: JSON.stringify(body)
-        }).then(()=> navigate('../'));
+        }).then(()=> navigate('/Home'));
       }
 
 
@@ -64,22 +67,22 @@ return ReactDom.createPortal (
           <div className="container">
         <div className="create_key">
            <label htmlFor='songKey' ></label>
-           <input id="songKey" type='number' value={songKey} onChange={keyChange} ></input>
+           <input id="songKey" type='number' value={songKey} onChange={keyChange} placeholder="Song key"></input>
         </div> 
 
             <div className="create_title">
            <label htmlFor='title'>Title</label>
-           <input id="title" type='text' value={title} onChange={titleChange} ></input>
+           <input id="title" type='text' value={title} onChange={titleChange} placeholder="Title"></input>
            </div>
 
            <div className="create_subtitle">
            <label htmlFor='subtitle' ></label>
-           <input id="subtitle" type='text' value={subtitle}onChange={subtitleChange} ></input>
+           <input id="subtitle" type='text' value={subtitle}onChange={subtitleChange} placeholder="Subtitle"></input>
            </div>
 
            <div className="create_image">
            <label htmlFor='image'  ></label>
-           <input id="image" type='text' value={avatar} onChange={avatarChange} ></input>
+           <input id="image" type='text' value={avatar} onChange={avatarChange} placeholder="Song image"></input>
            </div>
 
            <div className="create_songUrl">
@@ -102,4 +105,4 @@ return ReactDom.createPortal (
 
 } 
 
-export default CreateComponent;
+export default CreateComponentRock;

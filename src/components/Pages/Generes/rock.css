@@ -1,0 +1,47 @@
+.rock_music_list_container {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-left: 5rem;
+}
+    
+.user{
+    color: white;
+    margin-left: 4.2rem;
+}
+
+.rock_music_list_section{
+    background: blue;
+    margin-left: 7rem;
+    height: 45.1rem;
+    width: 63.9rem;
+}
+
+@media screen and (max-width: 426px) {
+
+ 
+.rock_music_list_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rock_music_list_section{
+    background: blue;
+    margin-left: 0rem;
+    height: 104rem;
+    width: 100%;
+    position: relative;
+    top: 10rem;
+}
+.user{
+    margin-left: 8.2rem;
+    
+    width: 10rem;
+
+}
+}

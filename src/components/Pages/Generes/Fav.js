@@ -1,14 +1,13 @@
 import React from "react";
 import { useContext, useEffect, useState } from 'react';
-import { AuthContext } from "../../App";
-import App from "../../App";
+import { AuthContext } from '../../../App';
+import App from "../../../App";
 import { useRef } from 'react';
 import { FaPlay, FaPause } from 'react-icons/fa';
-
-
-export function TopCharts() {
-  const FavouritesMusicUrl = 'http://localhost:3001/songs';
-  const [musicDataTop, setMusicTop] = useState([]);
+import './Fav.css';
+export function Favourites() {
+  const FavouritesMusicUrl = 'http://localhost:3001/favourites';
+  const [musicDataFavorites, setMusicFavorites] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [initialSongs, setInitialSongs] = useState([]);
   const { auth } = useContext(AuthContext);
@@ -20,23 +19,22 @@ export function TopCharts() {
       }
     })
       .then(response => response.json())
-      .then((musicFromServerTop) => {
-        setMusicTop(musicFromServerTop);
-        setInitialSongs(musicFromServerTop);
+      .then((musicFromServerFavourites) => {
+        setMusicFavorites(musicFromServerFavourites);
+        setInitialSongs(musicFromServerFavourites);
       })
       .catch(err => console.error(err));
   }, []);
 
   useEffect(() => {
     const searchParts = searchTerm.split(" ");
-    const filteredSongs = initialSongs.filter((song) => 
+    const filteredSongs = initialSongs.filter((songs) => 
       searchParts.every((part) => 
-        song.title.toLowerCase().includes(part) || song.subtitle.toLowerCase().includes(part)
+        songs.title.toLowerCase().includes(part) || songs.subtitle.toLowerCase().includes(part)
       )
     );
-    setMusicTop(filteredSongs);
-  }, [searchTerm, initialSongs]);
-  
+    setMusicFavorites(filteredSongs);
+  }, [searchTerm]);
   function searchInputHandler(event){
     setSearchTerm(event.target.value.toLowerCase());
   }
@@ -44,19 +42,19 @@ export function TopCharts() {
 
   return (
     <section className='Fav_music_list_section'>
-<header className="fav_header">Top Charts</header>
+<header className="fav_header">Favorites</header>
 <label htmlFor='search'>Search</label>
-      <input type='text' id='searchTop' onChange={searchInputHandler} className='topChartsSearch'></input>
+      <input type='text' id='searchFav' onChange={searchInputHandler}></input>
       <ul className='Fav_music_list_container'>
-        {musicDataTop.map((musicDataTop) => {
+        {musicDataFavorites.map((musicDataFavorites) => {
           return (
-            <TopCardComponent
-              key={musicDataTop.key}
-              title={musicDataTop.title}
-              subtitle={musicDataTop.subtitle}
-              id={musicDataTop.id}
-              songUrl={musicDataTop.uri}
-              avatar={musicDataTop.avatar}
+            <FavoritesCardComponent
+              key={musicDataFavorites.key}
+              title={musicDataFavorites.title}
+              subtitle={musicDataFavorites.subtitle}
+              id={musicDataFavorites.id}
+              songUrl={musicDataFavorites.uri}
+              avatar={musicDataFavorites.avatar}
             />
           );
         })}
@@ -65,7 +63,7 @@ export function TopCharts() {
   );
 }
 
-function TopCardComponent(props) {
+function FavoritesCardComponent(props) {
   const { title, subtitle, avatar, id, songUrl } = props;
   const audioRef = useRef(null);
 
@@ -92,6 +90,17 @@ function TopCardComponent(props) {
     setDuration(audioRef.current.duration);
   }
 
+  const handleDelete = () => {
+    fetch(`http://localhost:3001/favourites/${id}`, {
+      method: 'DELETE'
+    })
+      .then(response => response.json())
+      .then(() => {
+        window.location.reload();
+      }) 
+      .catch(err => console.error(err));
+  };
+
   return (
     <li className='Fav_music_card_container'>
       <article className='Fav_music_card'>
@@ -101,6 +110,9 @@ function TopCardComponent(props) {
         <button onClick={handlePlay}>
         {isPlaying ? <FaPause /> : <FaPlay />}
         </button>
+        <button onClick={handleDelete}>
+          ❌
+        </button>
         <audio ref={audioRef} src={songUrl} onTimeUpdate={handleTimeUpdate} />
         <input type="range" min="0" max={duration} value={currentTime} onChange={handleSeek} />
         <span className="time">{Math.round(duration - currentTime)} time left</span>
@@ -109,4 +121,4 @@ function TopCardComponent(props) {
   );
 }
 
-export default TopCharts;
+export default Favourites;

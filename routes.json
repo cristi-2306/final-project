@@ -1,3 +1,6 @@
 {
-    "/songs*" :"/660/songs$1"
+    "/songs*" :"/660/songs$1",
+    "/pop*" :"/660/pop$1",
+    "/rock*" :"/660/rock$1",
+    "/house*" :"/660/house$1"
 }

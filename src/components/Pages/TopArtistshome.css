@@ -1,0 +1,10 @@
+.scroller {
+    width: 24rem;
+    height: 28rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .scroller img {
+    margin-right: 1rem;
+  }

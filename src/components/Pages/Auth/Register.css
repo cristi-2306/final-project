@@ -1,0 +1,143 @@
+.register{
+    margin-top: 0rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,78,1) 25%, rgba(0,212,255,1) 100%);
+    height: 41.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register_form {
+    display: flex;
+    position: relative;
+    top: 8rem;
+    left: -1rem;
+    width: 87%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.email{
+    margin-left: 1.7rem;
+    color: white;
+}
+.password{
+    margin-top: 1rem;
+    color: white;
+}
+.first-name{
+    margin-top: 1rem;
+    color: white;
+}
+
+.last-name{
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.password_input{
+    padding: 10px;
+   background: #f0f0f0;
+   border: none;
+   border-radius: 10px;
+   }
+
+  .email_input{
+   padding: 10px;
+   background: #f0f0f0;
+   border: none;
+   border-radius: 10px;
+  }
+
+  .last-name-input{
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+  }
+  .first-name-input{
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+  }
+
+.register_btn {
+    margin-left: 10.4rem;
+    margin-top: 1.5rem;
+    background: rgb(58, 179, 224);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+@media screen and (min-width: 425px) {
+    .register{
+        margin-top: 0rem;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,20,78,1) 25%, rgba(0,212,255,1) 100%);
+        height: 46.6rem;
+       
+    }
+    
+    .register_form {
+        position: relative;
+        top: 13rem;
+        left: 15rem;
+        width: 60%;
+    
+    }
+    
+    .email{
+        margin-left: 1.7rem;
+    }
+    .passwoord{
+        margin-top: 1rem;
+    }
+    
+    .register_btn {
+        margin-left: 11.4rem;
+        margin-top: 1.5rem;
+        background: rgb(58, 179, 224);
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    .password_input{
+     padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    }
+
+   .email_input{
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+   }
+
+   .last-name-input{
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+  }
+  .first-name-input{
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+  }
+}

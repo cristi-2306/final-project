@@ -1,63 +1,326 @@
 {
   "songs": [
     {
-      "title": "asd",
-      "subtitle": "JIN 34asda12",
-      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/c3/64/22/c3642227-2af3-1d93-0721-c91a65e521d4/79d56625-c24d-4599-9919-5d999b69398f_ami-identity-d7c7fc06e25964f71047f919dd682d38-2022-10-28T03-56-00.951Z_cropped.png/800x800cc.jpg",
-      "uri": "",
-      "key": "11122333",
-      "id": "636972692414"
-    },
-    {
-      "title": "aaa",
-      "subtitle": "bbbbb",
-      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/c3/64/22/c3642227-2af3-1d93-0721-c91a65e521d4/79d56625-c24d-4599-9919-5d999b69398f_ami-identity-d7c7fc06e25964f71047f919dd682d38-2022-10-28T03-56-00.951Z_cropped.png/800x800cc.jpg",
-      "uri": "",
-      "key": "123648123",
-      "id": "63124569742694"
-    },
-    {
-      "title": "The Astronaut",
-      "subtitle": "JIN12456",
-      "key": "63124569772694",
+      "title": "To Love Somebody",
+      "subtitle": "Bee Gees",
+      "key": "6314564123126245697as72694",
       "id": "63124569726694",
-      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/1b/38/ea/1b38eacd-158d-5040-8887-2786d2a641bc/192641874338_Cover.jpg/400x400cc.jpg",
-      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bc/5c/5c/bc5c5ca1-0aa1-457d-65ce-f0f56f8a8245/mzaf_12809811648741532519.plus.aac.ep.m4a"
+      "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Features115/v4/8c/59/e7/8c59e7db-57c1-7d88-53a7-1eb63c509021/mzl.qhgncoyv.jpg/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/d3/42/1bd34288-c29e-3027-ba40-8a5d6b914133/mzaf_9037931705297200842.plus.aac.ep.m4a"
     },
     {
-      "title": "The Astronaut",
-      "subtitle": "JIN12456",
-      "key": "63124569792694",
+      "title": "Glass Onion",
+      "subtitle": "The Beatles",
+      "key": "6312443543656r88879792694",
       "id": "63124569372694",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/02/1f/ea/021fea7b-9acd-3dd9-c833-68781a5c764a/mza_12805048796106822393.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/49/09/d4/4909d493-2f18-58cd-4745-97aef5d43de4/mzaf_11905904210435959857.plus.aac.p.m4a"
+    },
+    {
+      "title": "Mahala",
+      "subtitle": "Misha Miller & Sasha Lopez",
+      "key": "631456462435445697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/ad/a2/af/ada2af54-efd5-185f-be1b-7d22076bd624/cover.jpg/400x400cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/1e/60/55/1e605547-2207-a1fd-3173-a0cad26da7da/mzaf_6400522851485827632.plus.aac.ep.m4aa"
+    },
+    {
+      "title": "Inimă stai",
+      "subtitle": "Mario Fresh, Renvt & Johny Romano",
+      "key": "631456462435445697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/1f/25/3d/1f253d47-dd65-cc93-396d-93e9aa49642f/6420565476968.jpg/400x400cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c9/67/cb/c967cb40-871f-5f5e-883c-7464d237ab58/mzaf_18000627537649225350.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Lume",
+      "subtitle": "Spike",
+      "key": "631456462435445697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/ea/87/ce/ea87ce6d-f637-02d3-35a6-362372abe6b2/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/28/e5/d9/28e5d9e0-f9b3-40b7-988b-4176375d9a69/mzaf_13327202992701801506.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Call It Love",
+      "subtitle": "Felix Jaehn & Ray Dalton",
+      "key": "631456462435445697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/9a/ee/ad/9aeead10-67a5-ce04-1339-9764d46fd01a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/38/0c/07/380c07a7-1c09-9254-63eb-07fcf733f0f7/mzaf_7129736042968219441.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Vreau Sa Sparg Paharul",
+      "subtitle": "Malina Avasiloaie",
+      "key": "631456462435445697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/de/0c/5f/de0c5f88-722a-32d8-ff95-51ea2d98cd33/9fd6e963-6b85-446e-aeb9-871641d96659_ami-identity-a9d9c72c23307ab2a64018246fe99b36-2022-11-11T11-06-33.418Z_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/e8/05/c5e80549-2971-c46d-6b13-879d37a0e44d/mzaf_1231823907911849414.plus.aac.ep.m4a"
+    }
+    
+  ],
+  "pop": [
+    {
+      "title": "The Astronaut124",
+      "subtitle": "JIN12456crstttt",
+      "key": "12321334",
+      "id": "2",
       "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/1b/38/ea/1b38eacd-158d-5040-8887-2786d2a641bc/192641874338_Cover.jpg/400x400cc.jpg",
       "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bc/5c/5c/bc5c5ca1-0aa1-457d-65ce-f0f56f8a8245/mzaf_12809811648741532519.plus.aac.ep.m4a"
     },
     {
-      "title": "The Astronaut",
-      "subtitle": "JIN12456",
-      "key": "631245697112694",
-      "id": "61312456972694",
+      "title": "Bloody Mary",
+      "subtitle": "Lady Gaga",
+      "key": "631245123216979123124122694",
+      "id": "3",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/2c/7d/5e/2c7d5ec0-bad6-5fb6-08f2-ccfd94aa2985/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c7/b0/df/c7b0dfe8-e1dc-1bda-88b0-0dc9b67e1b1b/mzaf_15572490037611837314.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Unholy",
+      "subtitle": "Sam Smith & Kim Petras",
+      "key": "631rtyr2421325697112694",
+      "id": "4",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/de/0c/5f/de0c5f88-722a-32d8-ff95-51ea2d98cd33/9fd6e963-6b85-446e-aeb9-871641d96659_ami-identity-a9d9c72c23307ab2a64018246fe99b36-2022-11-11T11-06-33.418Z_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/19/80/cc1980f3-fc4c-df71-754c-954985698459/mzaf_684514471777957594.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Unholy",
+      "subtitle": "Sam Smith & Kim Petras",
+      "key": "631r2131tyr245697112694",
+      "id": "4",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/de/0c/5f/de0c5f88-722a-32d8-ff95-51ea2d98cd33/9fd6e963-6b85-446e-aeb9-871641d96659_ami-identity-a9d9c72c23307ab2a64018246fe99b36-2022-11-11T11-06-33.418Z_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/19/80/cc1980f3-fc4c-df71-754c-954985698459/mzaf_684514471777957594.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r2131tyr21231245697112694"
+    },
+    {
+      "title": "STAR WALKIN' (League of Legends Worlds Anthem)",
+      "subtitle": "Lil Nas X",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/cc/71/d7/cc71d772-a807-6943-b4e2-c1b92b7b99b8/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6d/4b/66/6d4b6697-57ec-f34c-a56d-53c7fe48acea/mzaf_14430168494514608993.plus.aac.ep.m4a",
+      "id": "sq-O1BW",
+      "key": "631r2131tyr245697112693453454"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r2131tyr245697684657112694"
+    }
+  ],
+  "rock": [
+    {
+      "title": "To Love Somebody",
+      "subtitle": "Bee Gees",
+      "key": "631456416245697as72694",
+      "id": "63124569726694",
+      "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Features115/v4/8c/59/e7/8c59e7db-57c1-7d88-53a7-1eb63c509021/mzl.qhgncoyv.jpg/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/d3/42/1bd34288-c29e-3027-ba40-8a5d6b914133/mzaf_9037931705297200842.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Glass Onion",
+      "subtitle": "The Beatles",
+      "key": "6312456r32188879792694",
+      "id": "63124569372694",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/02/1f/ea/021fea7b-9acd-3dd9-c833-68781a5c764a/mza_12805048796106822393.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/49/09/d4/4909d493-2f18-58cd-4745-97aef5d43de4/mzaf_11905904210435959857.plus.aac.p.m4a"
+    },
+    {
+      "title": "Sympathy For The Devil",
+      "subtitle": "The Rolling Stones",
+      "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/50/6a/dd/506addd0-1a1c-ebbf-7ec3-7ebbd2785035/mza_827834569591675074.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/49/ee/9949ee99-f0c9-474c-80fe-a93e8c239685/mzaf_2505044107320760080.plus.aac.ep.m4a",
+      "key": "111113211111",
+      "id": "WQBZB6G"
+    },
+    {
+      "title": "Somewhere Only We Know",
+      "subtitle": "Keane",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/4b/98/4f/4b984f5e-9829-6d33-8596-ab19657a4f31/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d6/11/eb/d611eb29-46a7-fd8d-b9f8-c8ead8f823d5/mzaf_13104167006526359914.plus.aac.ep.m4a",
+      "id": "97nK3tP",
+      "key": "631r2131tyr2456971126947665"
+    },
+    {
+      "title": "Dream On",
+      "subtitle": "Aerosmith",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/01/f9/9b/01f99bf8-66f8-9f4c-9ef8-91e55728d83a/mza_6690800116101211462.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/7f/26/577f26b5-36de-ccec-389c-47c875e3d134/mzaf_5495031620955907258.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r21123431tyr245697112694"
+    },
+    {
+      "title": "THE LONELIEST",
+      "subtitle": "Måneskin",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/e3/84/c6/e384c653-2d0c-a337-ad1e-06626f1d4cf9/460c270a-7b2c-45c8-ad60-a063061558f2_file_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/3f/b5/cc/3fb5cc66-bf2c-2286-f1d8-98587b6c7f5a/mzaf_14157560877801761898.plus.aac.ep.m4a",
+      "id": "sq-O1BW",
+      "key": "631r2131tyr245635fs97112694"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r2131tyr245697112312694"
+    }
+  ],
+  "house": [
+    {
+      "title": "Back That Up To the Beat",
+      "subtitle": "Iam Lumoss",
+      "key": "6312456q81238888888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/45/0b/fb/450bfb81-2e97-5337-a373-2cf6d8979b59/artwork.jpg/400x400cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/04/2a/cb/042acbb7-86a4-1d90-4c52-2380403fb699/mzaf_3372313097420776774.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Wake Me Up",
+      "subtitle": "Avicii",
+      "key": "6312456q88883458888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/22/44/4a/22444a91-a246-fe56-d5d9-6a4d99bf1bd8/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/09/c9/42/09c9429e-7de4-e4de-0c2b-8414255f2015/mzaf_12407213761538126754.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Love You Like That",
+      "subtitle": "Cloonee",
+      "key": "6312456q888344588888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/dc/61/fb/dc61fb87-9918-54d0-0322-6a23a17001c4/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/ee/aa/50eeaa6d-0fd4-8df5-069e-cbb34bb42e01/mzaf_8955660860404899260.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Back That Up To the Beat",
+      "subtitle": "Iam Lumoss",
+      "key": "6312456q8888542438888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/45/0b/fb/450bfb81-2e97-5337-a373-2cf6d8979b59/artwork.jpg/400x400cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/04/2a/cb/042acbb7-86a4-1d90-4c52-2380403fb699/mzaf_3372313097420776774.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Children",
+      "subtitle": "Robert Miles",
+      "key": "6312456323342q88888888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/28/e1/74/28e1747b-621d-1f1f-b260-17b5af2e2879/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1c/58/cc/1c58cc79-96bc-c8d8-5534-f62aa8302a62/mzaf_14909263326723780542.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Holiday",
+      "subtitle": "Cheesecake Boys",
+      "key": "6312456q8842357888888889772694",
+      "id": "63124569726694",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/0f/a9/cc/0fa9ccab-e793-dbf4-27d6-328bc83871cc/5057272836191.png/400x400cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/50/a7/af/50a7af75-80e5-c961-848e-7864bf9bbec2/mzaf_8691181694802734828.plus.aac.ep.m4a"
+    }
+  ],
+  "around": [
+    {
+      "title": "The Astronaut124",
+      "subtitle": "JIN12456crstttt",
+      "key": "12332664",
+      "id": "2",
       "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/1b/38/ea/1b38eacd-158d-5040-8887-2786d2a641bc/192641874338_Cover.jpg/400x400cc.jpg",
       "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bc/5c/5c/bc5c5ca1-0aa1-457d-65ce-f0f56f8a8245/mzaf_12809811648741532519.plus.aac.ep.m4a"
     },
     {
-      "title": "ddd",
-      "subtitle": "sss",
-      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/c3/64/22/c3642227-2af3-1d93-0721-c91a65e521d4/79d56625-c24d-4599-9919-5d999b69398f_ami-identity-d7c7fc06e25964f71047f919dd682d38-2022-10-28T03-56-00.951Z_cropped.png/800x800cc.jpg",
-      "uri": "",
-      "key": "123456677",
-      "id": "yE0iean"
+      "title": "Bloody Mary",
+      "subtitle": "Lady Gaga",
+      "key": "63124569732429123124122694",
+      "id": "3",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/2c/7d/5e/2c7d5ec0-bad6-5fb6-08f2-ccfd94aa2985/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c7/b0/df/c7b0dfe8-e1dc-1bda-88b0-0dc9b67e1b1b/mzaf_15572490037611837314.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Unholy",
+      "subtitle": "Sam Smith & Kim Petras",
+      "key": "631rtyr324212245697112694",
+      "id": "4",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/de/0c/5f/de0c5f88-722a-32d8-ff95-51ea2d98cd33/9fd6e963-6b85-446e-aeb9-871641d96659_ami-identity-a9d9c72c23307ab2a64018246fe99b36-2022-11-11T11-06-33.418Z_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/19/80/cc1980f3-fc4c-df71-754c-954985698459/mzaf_684514471777957594.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Unholy",
+      "subtitle": "Sam Smith & Kim Petras",
+      "key": "631rt12312yr245697112694",
+      "id": "4",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/AMCArtistImages122/v4/de/0c/5f/de0c5f88-722a-32d8-ff95-51ea2d98cd33/9fd6e963-6b85-446e-aeb9-871641d96659_ami-identity-a9d9c72c23307ab2a64018246fe99b36-2022-11-11T11-06-33.418Z_cropped.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/19/80/cc1980f3-fc4c-df71-754c-954985698459/mzaf_684514471777957594.plus.aac.ep.m4a"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r2131tyr24569711269324324"
+    },
+    {
+      "title": "STAR WALKIN' (League of Legends Worlds Anthem)",
+      "subtitle": "Lil Nas X",
+      "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/cc/71/d7/cc71d772-a807-6943-b4e2-c1b92b7b99b8/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6d/4b/66/6d4b6697-57ec-f34c-a56d-53c7fe48acea/mzaf_14430168494514608993.plus.aac.ep.m4a",
+      "id": "sq-O1BW"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": "yTBdVT_",
+      "key": "631r2131tyr2456971asdas12694"
+    }
+  ],
+  "favourites": [
+    {
+      "title": "Bloody Mary",
+      "subtitle": "Lady Gaga",
+      "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/2c/7d/5e/2c7d5ec0-bad6-5fb6-08f2-ccfd94aa2985/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c7/b0/df/c7b0dfe8-e1dc-1bda-88b0-0dc9b67e1b1b/mzaf_15572490037611837314.plus.aac.ep.m4a",
+      "id": 1,
+      "key": "631r2131tyr2456dasd97112694"
+    },
+    {
+      "title": "Escapism",
+      "subtitle": "RAYE & 070 Shake",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/d3/b1/67d3b183-4cfb-dd3f-b414-b904a85a071a/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a5/79/7e/a5797ee9-a15a-4f3b-0a68-0ac53b28ae86/mzaf_14258047481717338383.plus.aac.ep.m4a",
+      "id": 3,
+      "key": "631r2131tyr2456971126947856"
+    },
+    {
+      "title": "Wake Me Up",
+      "subtitle": "Avicii",
+      "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/22/44/4a/22444a91-a246-fe56-d5d9-6a4d99bf1bd8/pr_source.png/800x800cc.jpg",
+      "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/09/c9/42/09c9429e-7de4-e4de-0c2b-8414255f2015/mzaf_12407213761538126754.plus.aac.ep.m4a",
+      "id": 4,
+      "key": "631r2131tyr245697112691231334564"
     }
   ],
   "users": [
     {
-      "email": "test@gmail.com",
-      "password": "$2a$10$5Y8TfTD016GbuIcdMQ4r..VOFCWsETpUpdhgvNBNvNW/BBSkN2N2u",
-      "id": 1
+      "email": "cristi@gmail.com",
+      "password": "$2a$10$n1WSICdZ2/XakgwKbWr.7OYoRit2LgTQk6sJUi3GpGzBAWqhHBkmC",
+      "firstName": "cristi",
+      "lastName": "chereches",
+      "id": 1,
+      "admin": "true"
     },
     {
-      "email": "test2@gmail.com",
-      "password": "$2a$10$1IzpfuP9Q1xpGZVBgQi6SuRIH9NVYMUm4E4eIrELVBhsbjyUdPsLW",
+      "email": "bbb@gmail.com",
+      "password": "$2a$10$JONJDFMPklZwoDjfxv5YSeswSREZz/i6o2iZddXely/T2U0bl4TXG",
+      "firstName": "aaa",
+      "lastName": "bbbb",
       "id": 2
     }
   ]
